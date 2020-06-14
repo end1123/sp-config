@@ -8,6 +8,11 @@ spring:
   cloud:
     config:
       override-none: true
+  rabbitmq:
+    host: 192.168.80.201
+    port: 5672
+    username: jtadmin
+    password: jtadmin
     
 server:
   port: 8101
